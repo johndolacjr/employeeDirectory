@@ -12,222 +12,245 @@ import imageEleven from "./Components/Images/eleven.jpg"
 import imageTweleve from "./Components/Images/tweleve.jpg"
 
 
-export default[
+export default [
+
     {
       "id": 1,
-      "name": "SpongeBob",
+      "name": "Himato Yoshi",
       "image": imageOne,
       "phone": "0420719900",
-      "email": "SpongeBob@gmail.com",
+      "email": "Yoshi@gmail.com",
       "DOB": "14/07/1979",
       "gender":"male"
     },
+
     {
       "id": 2,
-      "name": "Mr. Krabs",
+      "name": "Master Splinter",
       "image": imageTwo,
       "phone": "0420719901",
-      "email": "Krabs@gmail.com",
-      "DOB": "10/08/1959",
+      "email": "Splinter@gmail.com",
+      "DOB": "10/08/1975",
       "gender":"female"
     },
+
     {
       "id": 3,
-      "name": "Squidward",
+      "name": "Leonardo",
       "image": imageThree,
       "phone": "0420719902",
-      "email": "pradeep@gmail.com",
-      "DOB": "1/05/1949",
-      "gender":"female"
+      "email": "Leo@gmail.com",
+      "DOB": "1/05/1985",
+      "gender":"male"
     },
+
     {
       "id": 4,
-      "name": "Dexter",
+      "name": "Donatello",
       "image": imageFour,
       "phone": "0420719903",
-      "email": "Dexter@gmail.com",
-      "DOB": "19/04/1959",
+      "email": "Donny@gmail.com",
+      "DOB": "19/04/185",
       "gender":"male"
     },
+
     {
       "id": 5,
-      "name": "Courage",
+      "name": "Michelangelo",
       "image": imageFive,
       "phone": "0420719904",
-      "email": "Courage@gmail.com",
-      "DOB": "15/07/1969",
+      "email": "Mikey@gmail.com",
+      "DOB": "15/07/1985",
       "gender":"male"
     },
+
     {
       "id": 6,
-      "name": "Doug Funnie",
+      "name": "Raphael",
       "image": imageSix,
       "phone": "0420719905",
-      "email": "Doug@gmail.com",
+      "email": "Raph@gmail.com",
       "DOB": "29/08/1979",
       "gender":"female"
     },
+
     {
       "id": 7,
-      "name": "Bugs Bunny",
+      "name": "Shredder",
       "image": imageSeven,
       "phone": "0420719906",
-      "email": "Bugs@gmail.com",
+      "email": "Shreddit@gmail.com",
       "DOB": "12/01/1989",
       "gender":"female"
     },
+
     {
       "id": 8,
-      "name": "Johnny Bravo",
+      "name": "Beebop",
       "image": imageEight,
       "phone": "0420719907",
-      "email": "Johnny@gmail.com",
+      "email": "Beebop@gmail.com",
       "DOB": "13/07/199",
       "gender":"female"
     },
+
     {
       "id": 9,
-      "name": "Tommy Pickles",
+      "name": "Rock Steady",
       "image": imageNine,
       "phone": "0420719908",
       "email": "Tommy@gmail.com",
       "DOB": "19/10/2001",
       "gender":"female"
     },
+
     {
       "id": 10,
-      "name": "Rocko",
+      "name": "Megan Fox",
       "image": imageTen,
       "phone": "0420719909",
-      "email": "Rocko@gmail.com",
+      "email": "Foxxy@gmail.com",
       "DOB": "25/02/1995",
       "gender":"male"
     },
+
     {
       "id": 11,
       "name": "Captain Planet",
       "image": imageEleven,
       "phone": "0420719910",
-      "email": "captain@gmail.com",
+      "email": "HesOurHero@gmail.com",
       "DOB": "14/07/1960",
-      "gender":"female"
+      "gender":"male"
     },
+
     {
       "id": 12,
-      "name": "Ickis",
+      "name": "Jubilee",
       "image": imageTweleve,
       "phone": "0420719911",
-      "email": "ckis@gmail.com",
+      "email": "JUBS@gmail.com",
       "DOB": "03/09/1980",
       "gender":"female"
     },
+
     {
       "id": 13,
-      "name": "Ponge",
+      "name": "Rogue",
       "image": imageOne,
       "phone": "0520719900",
-      "email": "ponge@gmail.com",
+      "email": "Rogue@gmail.com",
       "DOB": "14/07/1979",
-      "gender":"male"
-    },
-    {
-      "id": 14,
-      "name": "Mr. Drabs",
-      "image": imageTwo,
-      "phone": "0520719901",
-      "email": "Drabs@gmail.com",
-      "DOB": "10/08/1959",
       "gender":"female"
     },
+
+    {
+      "id": 14,
+      "name": "Batman",
+      "image": imageTwo,
+      "phone": "0520719901",
+      "email": "Batman@gmail.com",
+      "DOB": "10/08/1959",
+      "gender":"male"
+    },
+
     {
       "id": 15,
-      "name": "Quidward",
+      "name": "Harley Quinn",
       "image": imageThree,
       "phone": "0520719902",
-      "email": "Quidward@gmail.com",
+      "email": "Dr.Quinn@gmail.com",
       "DOB": "1/05/1949",
       "gender":"female"
     },
+
     {
       "id": 16,
-      "name": "Dexter",
+      "name": "Joker",
       "image": imageFour,
       "phone": "0520719903",
-      "email": "Dexter@gmail.com",
+      "email": "GotJokes@gmail.com",
       "DOB": "19/04/1959",
       "gender":"male"
     },
+
     {
       "id": 17,
-      "name": "Courage",
+      "name": "Peter Griffin",
       "image": imageFive,
       "phone": "0520719904",
-      "email": "Courage@gmail.com",
+      "email": "Hehehehehe@gmail.com",
       "DOB": "15/07/1969",
       "gender":"male"
     },
+
     {
       "id": 18,
-      "name": "Funnie",
+      "name": "Lois Griffin",
       "image": imageSix,
       "phone": "0520719905",
-      "email": "Funnie@gmail.com",
+      "email": "LGriffin@gmail.com",
       "DOB": "29/08/1979",
       "gender":"female"
     },
+
     {
       "id": 19,
-      "name": "Bunny",
+      "name": "Meg",
       "image": imageSeven,
       "phone": "0520719906",
-      "email": "Bunny@gmail.com",
+      "email": "ShutUpMeg@gmail.com",
       "DOB": "12/01/1989",
       "gender":"female"
     },
+
     {
       "id": 20,
-      "name": "Bravo",
+      "name": "Stewie Griffin",
       "image": imageEight,
       "phone": "0520719907",
-      "email": "Bravo@gmail.com",
+      "email": "Stew@gmail.com",
       "DOB": "13/07/199",
-      "gender":"female"
+      "gender":"male"
     },
+
     {
       "id": 21,
-      "name": "Pickles",
+      "name": "Brian Griffin",
       "image": imageNine,
       "phone": "0520719908",
-      "email": "Pickles@gmail.com",
+      "email": "GoodBoy@gmail.com",
       "DOB": "19/10/2001",
-      "gender":"female"
-    },
-    {
-      "id": 22,
-      "name": "Ocko",
-      "image": imageTen,
-      "phone": "0520719909",
-      "email": "Ocko@gmail.com",
-      "DOB": "25/02/1995",
       "gender":"male"
     },
     {
+      "id": 22,
+      "name": "Quagmire",
+      "image": imageTen,
+      "phone": "0520719909",
+      "email": "Giggity@gmail.com",
+      "DOB": "5/02/1980",
+      "gender":"male"
+    },
+
+    {
       "id": 23,
-      "name": "Lanet",
+      "name": "Lana Kane",
       "image": imageEleven,
       "phone": "0520719910",
-      "email": "lanet@gmail.com",
-      "DOB": "14/07/1960",
+      "email": "Lana_Kane@gmail.com",
+      "DOB": "4/07/1960",
       "gender":"female"
     },
+
     {
       "id": 24,
-      "name": "Kis",
+      "name": "Sterling Archer",
       "image": imageTweleve,
       "phone": "0520719911",
-      "email": "kis@gmail.com",
+      "email": "ThatsHowYouGetAnts@gmail.com",
       "DOB": "03/09/1980",
-      "gender":"female"
+      "gender":"male"
     }
 
   ]
