@@ -6,7 +6,7 @@ export default function TableHeading(props) {
             <table className="table">
                 <thead className="thead-dark">
                     <tr>
-                        <th scope="col">#</th>
+                        <th scope="col">ID</th>
                         <th scope="col">Image </th>
                         <th scope="col" >
                             <button type="button" onClick={props.handleSortByDecendingName}>Name<i className="fa fa-fw fa-sort"></i> 
