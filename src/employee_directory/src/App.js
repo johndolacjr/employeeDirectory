@@ -7,7 +7,8 @@
 import React from "react";
 import EmployeeContainer from "./Components/EmployeeContainer/EmployeeContainer";
 
-function App() { 
+function App() {
+   // delete everything in the return; write my code to call other components 
   return (
     <>
     <EmployeeContainer/>
@@ -27,8 +28,7 @@ export default App;
   //   API.key().then(response => setData(response.data))
   // }, []);
   
-  // delete everything in the return 
-  // write my own code to call other components 
+ 
 
 // Components 
   // List of people

@@ -6,8 +6,8 @@ import EmployeeData from "../EmployeeData/EmployeeData"
 export default function EmployeeContainer() {
     return (
         <div>
-            <Heading />
-            <EmployeeData />
+            <Heading/>
+            <EmployeeData/>
         </div>
     )
-}
+};
