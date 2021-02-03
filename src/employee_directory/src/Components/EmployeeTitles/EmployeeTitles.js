@@ -1,7 +1,7 @@
 import React from 'react'
-import "./EmployeeRoles.css"
+import "./EmployeeTitles.css"
 
-export default function EmployeeRoles(props) {
+export default function EmployeeTitles(props) {
 
     return (
         <div  className="table-responsive">
@@ -19,4 +19,4 @@ export default function EmployeeRoles(props) {
             </table>
         </div>
     )
-};
+}
