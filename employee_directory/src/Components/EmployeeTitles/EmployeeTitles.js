@@ -4,7 +4,7 @@ import "./EmployeeTitles.css"
 export default function EmployeeTitles(props) {
 
     return (
-        <div  className="table-responsive">
+        <div className="table-responsive">
             <table className="table">
                 <tbody>
                     <tr>

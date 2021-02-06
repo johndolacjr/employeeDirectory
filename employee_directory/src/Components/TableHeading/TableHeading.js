@@ -1,4 +1,5 @@
 import React from 'react'
+import "./TableHeading.css"
 
 export default function TableHeading(props) {
     return (

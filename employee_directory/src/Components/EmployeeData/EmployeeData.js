@@ -3,6 +3,7 @@ import EmployeeTitles from "../EmployeeTitles/EmployeeTitles"
 import TableHeading from "../TableHeading/TableHeading"
 import data from "../../data"
 
+
 import SearchBar from "../SearchBar/SearchBar"
 
 export default class EmployeeData extends Component {
@@ -11,8 +12,6 @@ export default class EmployeeData extends Component {
     state = {
         data,
         search: "",
-        // isMale: false,
-        // isFemale: false,
         isName: true,
         sortName: data
     }
@@ -21,37 +20,6 @@ export default class EmployeeData extends Component {
     handleSearch = (event) => {
         this.setState({ search: event.target.value })
     }
-
-    // //Filter if Male check box is clicked
-    // handleMaleCheck = (event) => {
-    //     this.setState({ isMale: event.target.checked })
-    //     if (!this.state.isMale) {
-    //         let filterByGender = this.state.data.filter(gender => {
-    //             return gender.gender === "male"
-    //         })
-    //         this.setState({ data: filterByGender })
-    //     } else {
-
-    //         this.setState({ data })
-
-    //     }
-    // }
-
-    // //Filter if Female check box is clicked
-    // handleFemaleCheck = (event) => {
-    //     this.setState({ isFemale: event.target.checked })
-
-    //     if (!this.state.isFemale) {
-    //         let filterByGender = this.state.data.filter(gender => {
-    //             return gender.gender === "female"
-    //         })
-    //         this.setState({ data: filterByGender })
-    //     } else {
-    //         this.setState({ data })
-    //     }
-
-    // }
-
    
     //Filter if sort by descending name check box is clicked
     handleSortByDecendingName = (event) => {
