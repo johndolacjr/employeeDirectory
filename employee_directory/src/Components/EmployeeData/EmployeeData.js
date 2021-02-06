@@ -8,7 +8,7 @@ import SearchBar from "../SearchBar/SearchBar"
 
 export default class EmployeeData extends Component {
 
-    //Setting this.state.data tot the data json array
+    //Setting this.state.data to the data json array
     state = {
         data,
         search: "",
@@ -31,11 +31,11 @@ export default class EmployeeData extends Component {
             this.state.data.sort(function (a, b) {
                 var nameA = a.name.toLowerCase()
                 var nameB = b.name.toLowerCase()
-                if (nameB < nameA) //sort string ascending
+                if (nameB < nameA)
                     return -1
                 else if (nameB > nameA)
                     return 1
-                else return 0 //default return value (no sorting)
+                else return 0 
             })
             this.setState({ isName: false})
 
@@ -48,11 +48,11 @@ export default class EmployeeData extends Component {
             this.state.data.sort(function (a, b) {
                 var nameA = a.name.toLowerCase()
                 var nameB = b.name.toLowerCase()
-                if (nameA < nameB) //sort string ascending
+                if (nameA < nameB) 
                     return -1
                 else if (nameA > nameB)
                     return 1
-                else return 0 //default return value (no sorting)
+                else return 0 
             })
         }
            
@@ -69,8 +69,6 @@ export default class EmployeeData extends Component {
                 <SearchBar
                     data={this.state.data}
                     handleSearch={this.handleSearch.bind(this)}
-                    // handleMaleCheck={this.handleMaleCheck.bind(this)}
-                    // handleFemaleCheck={this.handleFemaleCheck.bind(this)}
                     handleSortByDecendingName={this.handleSortByDecendingName.bind(this)}
                 />
                 <TableHeading  

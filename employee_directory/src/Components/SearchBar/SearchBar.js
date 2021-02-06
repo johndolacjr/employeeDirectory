@@ -12,25 +12,6 @@ export default function SearchBar(props) {
                     <h4 className="col-lg-6">Filter By Name: </h4>
                     <input onChange={props.handleSearch} type="text"></input>
                 </div>
-
-               
-               {/* <div className="row">
-                    <div className="form-check col-lg-6">
-                       
-                        <input type="checkbox" className="form-check-input" id="male" onChange={props.handleMaleCheck} />
-                        <p className="form-check-label" >Male:</p>
-                    </div>
-                    
-
-                    <div className="form-check col-lg-6">
-                        
-                        <input type="checkbox" className="form-check-input" id="female" onChange={props.handleFemaleCheck} />
-                        <p className="form-check-label">Female:</p>
-                    </div>
-                    </div> */}
-
-
-
             </form>
         </section>
 

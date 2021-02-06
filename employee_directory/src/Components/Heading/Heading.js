@@ -6,7 +6,7 @@ export default function Heading() {
     return (
         <div className="bg-primary">
             <h1>Teammate Directory</h1>
-            <h2>Use Search Box to Find Teammates Quickly by Name</h2>
+            <h2>Find Teammates Quickly by Searching Their Name</h2>
             
         </div>
     )
