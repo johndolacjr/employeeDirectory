@@ -10,6 +10,18 @@ import imageNine from "./Components/Images/nine.jpg"
 import imageTen from "./Components/Images/ten.jpg"
 import imageEleven from "./Components/Images/eleven.jpg"
 import imageTweleve from "./Components/Images/tweleve.jpg"
+import imageThirteen from "./Components/Images/thirteen.jpg"
+import imageFourteen from "./Components/Images/fourteen.jpg"
+import imageFifteen from "./Components/Images/fifteen.jpg"
+import imageSixteen from "./Components/Images/sixteen.jpg"
+import imageSeventeen from "./Components/Images/seventeen.jpg"
+import imageEighteen from "./Components/Images/eighteen.jpg"
+import imageNineteen from "./Components/Images/nineteen.jpg"
+import imageTwenty from "./Components/Images/twenty.jpg"
+import imageTwentyone from "./Components/Images/twentyone.jpg"
+import imageTwentytwo from "./Components/Images/twentytwo.jpg"
+import imageTwentythree from "./Components/Images/twentythree.jpg"
+import imageTwentyfour from "./Components/Images/twentyfour.jpg"
 
 
 export default [
@@ -137,7 +149,7 @@ export default [
     {
       "id": 13,
       "name": "Rogue",
-      "image": imageOne,
+      "image": imageThirteen,
       "phone": "123-456-9989",
       "email": "Rogue@gmail.com",
       "DOB": "14/07/1979",
@@ -146,18 +158,18 @@ export default [
 
     {
       "id": 14,
-      "name": "Batman",
-      "image": imageTwo,
+      "name": "Batwoman",
+      "image": imageFourteen,
       "phone": "123-456-9999",
-      "email": "Batman@gmail.com",
+      "email": "BatWoman@gmail.com",
       "DOB": "10/08/1959",
-      "gender":"male"
+      "gender":"female"
     },
 
     {
       "id": 15,
       "name": "Harley Quinn",
-      "image": imageThree,
+      "image": imageFifteen,
       "phone": "123-456-9998",
       "email": "Dr.Quinn@gmail.com",
       "DOB": "1/05/1949",
@@ -167,7 +179,7 @@ export default [
     {
       "id": 16,
       "name": "Joker",
-      "image": imageFour,
+      "image": imageSixteen,
       "phone": "123-456-9997",
       "email": "GotJokes@gmail.com",
       "DOB": "19/04/1959",
@@ -177,7 +189,7 @@ export default [
     {
       "id": 17,
       "name": "Peter Griffin",
-      "image": imageFive,
+      "image": imageSeventeen,
       "phone": "123-456-9996",
       "email": "Hehehehehe@gmail.com",
       "DOB": "15/07/1969",
@@ -187,7 +199,7 @@ export default [
     {
       "id": 18,
       "name": "Lois Griffin",
-      "image": imageSix,
+      "image": imageEighteen,
       "phone": "123-456-9983",
       "email": "LGriffin@gmail.com",
       "DOB": "29/08/1979",
@@ -197,7 +209,7 @@ export default [
     {
       "id": 19,
       "name": "Meg",
-      "image": imageSeven,
+      "image": imageNineteen,
       "phone": "123-456-9958",
       "email": "ShutUpMeg@gmail.com",
       "DOB": "12/01/1989",
@@ -207,7 +219,7 @@ export default [
     {
       "id": 20,
       "name": "Stewie Griffin",
-      "image": imageEight,
+      "image": imageTwenty,
       "phone": "123-456-9945",
       "email": "Stew@gmail.com",
       "DOB": "13/07/199",
@@ -217,7 +229,7 @@ export default [
     {
       "id": 21,
       "name": "Brian Griffin",
-      "image": imageNine,
+      "image": imageTwentyone,
       "phone": "123-456-9923",
       "email": "GoodBoy@gmail.com",
       "DOB": "19/10/2001",
@@ -226,7 +238,7 @@ export default [
     {
       "id": 22,
       "name": "Quagmire",
-      "image": imageTen,
+      "image": imageTwentytwo,
       "phone": "123-456-9943",
       "email": "Giggity@gmail.com",
       "DOB": "5/02/1980",
@@ -236,7 +248,7 @@ export default [
     {
       "id": 23,
       "name": "Lana Kane",
-      "image": imageEleven,
+      "image": imageTwentythree,
       "phone": "123-456-9955",
       "email": "Lana_Kane@gmail.com",
       "DOB": "4/07/1960",
@@ -246,7 +258,7 @@ export default [
     {
       "id": 24,
       "name": "Sterling Archer",
-      "image": imageTweleve,
+      "image": imageTwentyfour,
       "phone": "123-456-9977",
       "email": "ThatsHowYouGetAnts@gmail.com",
       "DOB": "03/09/1980",
