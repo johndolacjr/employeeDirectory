@@ -1,44 +1,30 @@
-# Unit 19: React Week 1
+# Employee Directory
 
-## Overview
-Our full-stack journey is coming full circle. We started at the front-end, creating simple apps with HTML, CSS and JavaScript, and we will end at the front-end, working with the same three core technologies of the web, but from a much different angle, to build complex user interfaces. 
+## User Story 
+  * As a user, you will be able to search your employee directory by filtering Employee Name alphabetically from A-Z or Z-A. You can also use the search bar to find your employees by name. Just start typing their name.  
 
-By now, you probably noted a theme in the history of the web. When developers find themselves repeatedly solving the same problems, they begin looking for standardized solutions. Our users now demand increased interactivity _and_ speed in a web application. As the complexity of an application grows, so too does the number of DOM manipulations required to render content, thus resulting in a slower user-experience. 
+## Screenshots 
+  * Homepage
+    * ![image](https://user-images.githubusercontent.com/69832533/107129511-08a57e00-6883-11eb-8984-e58def8cefad.png)
 
-In 2013, the developers at Facebook released React, a library that addresses this performance issue using the concept of a _virtual DOM_, an in-memory representation of the DOM that only updates nodes that have changed and not the entire DOM itself. In addition to improvements in user experience, React speeds up the development workflow as we can break our user interface into reusable components and, with the possible exception of JSX, write our components entirely in JavaScript without the need to learn the particular syntax of a template engine. React was quickly adopted by companies large and small and continues to gain in popularity as the library matures. 
+  * Search by Name
+    * ![image](https://user-images.githubusercontent.com/69832533/107129505-ff1c1600-6882-11eb-9c4f-9a021a797f9c.png)
 
-## Key Topics
-* React
-* Create React App
-* Components
-* JSX
-* JSX variables
-* Props
+  * Filter from A-Z
+    * ![image](https://user-images.githubusercontent.com/69832533/107129500-f4fa1780-6882-11eb-9a3e-777fa08ff0d1.png)
 
-## Comprehension Check
-You will be employer-ready if you can answer the following questions:
-1. What is the virtual DOM?
-2. How does one implement a stateful component? 
-3. What does it mean to mutate state? 
+  * Filter from Z-A 
+    * ![image](https://user-images.githubusercontent.com/69832533/107129486-e0b61a80-6882-11eb-9b66-6cbfa0031f21.png)
 
-## Learning Objectives
-You will be employer-competitive if you are able to:
-* Explain the purpose of the Create React App dependencies Webpack and Babel
-* Explain and implement JSX and JSX variables to dynamically render HTML
-* Compose functional and stateful components and explain their differences
-* Explain one-way data binding and its relationship to components and props
-* Compose event handlers and update application state based on user form input
 
-## Homework: Employee Directory
-* For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
 
-## Helpful Links
-* [Why did we build React?](https://reactjs.org/blog/2013/06/05/why-react.html)
-* [React.js](https://reactjs.org/)
-* [Create React App](https://github.com/facebook/create-react-app)
-* [Babel](https://babeljs.io/docs/en/)
-* [webpack](https://webpack.js.org/)
-* [JSX](https://reactjs.org/docs/introducing-jsx.html)
-* [Components and Props](https://reactjs.org/docs/components-and-props.html#es6-classes)
-* [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
-* [gh-pages](https://www.npmjs.com/package/gh-pages)
+
+## Live Link
+  *
+ 
+## Git Hub Link
+  * https://github.com/johndolacjr/employeeDirectory.git
+
+## Contact Info
+  * Name: John Dolac
+  * Email: johndolacjr@gmail.com 
