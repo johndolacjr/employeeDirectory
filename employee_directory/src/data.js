@@ -18,7 +18,7 @@ export default [
       "id": 1,
       "name": "Himato Yoshi",
       "image": imageOne,
-      "phone": "0420719900",
+      "phone": "123-456-9900",
       "email": "Yoshi@gmail.com",
       "DOB": "14/07/1979",
       "gender":"male"
@@ -28,7 +28,7 @@ export default [
       "id": 2,
       "name": "Master Splinter",
       "image": imageTwo,
-      "phone": "0420719901",
+      "phone": "123-456-9900",
       "email": "Splinter@gmail.com",
       "DOB": "10/08/1975",
       "gender":"female"
@@ -38,7 +38,7 @@ export default [
       "id": 3,
       "name": "Leonardo",
       "image": imageThree,
-      "phone": "0420719902",
+      "phone": "123-456-9945",
       "email": "Leo@gmail.com",
       "DOB": "1/05/1985",
       "gender":"male"
@@ -48,7 +48,7 @@ export default [
       "id": 4,
       "name": "Donatello",
       "image": imageFour,
-      "phone": "0420719903",
+      "phone": "123-456-9902",
       "email": "Donny@gmail.com",
       "DOB": "19/04/185",
       "gender":"male"
@@ -58,7 +58,7 @@ export default [
       "id": 5,
       "name": "Michelangelo",
       "image": imageFive,
-      "phone": "0420719904",
+      "phone": "123-456-9946",
       "email": "Mikey@gmail.com",
       "DOB": "15/07/1985",
       "gender":"male"
@@ -68,17 +68,17 @@ export default [
       "id": 6,
       "name": "Raphael",
       "image": imageSix,
-      "phone": "0420719905",
+      "phone": "123-456-9947",
       "email": "Raph@gmail.com",
       "DOB": "29/08/1979",
-      "gender":"female"
+      "gender":"male"
     },
 
     {
       "id": 7,
       "name": "Shredder",
       "image": imageSeven,
-      "phone": "0420719906",
+      "phone": "123-456-9948",
       "email": "Shreddit@gmail.com",
       "DOB": "12/01/1989",
       "gender":"female"
@@ -88,7 +88,7 @@ export default [
       "id": 8,
       "name": "Beebop",
       "image": imageEight,
-      "phone": "0420719907",
+      "phone": "123-456-9912",
       "email": "Beebop@gmail.com",
       "DOB": "13/07/199",
       "gender":"female"
@@ -98,7 +98,7 @@ export default [
       "id": 9,
       "name": "Rock Steady",
       "image": imageNine,
-      "phone": "0420719908",
+      "phone": "123-456-9913",
       "email": "Tommy@gmail.com",
       "DOB": "19/10/2001",
       "gender":"female"
@@ -108,7 +108,7 @@ export default [
       "id": 10,
       "name": "Megan Fox",
       "image": imageTen,
-      "phone": "0420719909",
+      "phone": "123-456-9956",
       "email": "Foxxy@gmail.com",
       "DOB": "25/02/1995",
       "gender":"male"
@@ -118,7 +118,7 @@ export default [
       "id": 11,
       "name": "Captain Planet",
       "image": imageEleven,
-      "phone": "0420719910",
+      "phone": "123-456-9976",
       "email": "HesOurHero@gmail.com",
       "DOB": "14/07/1960",
       "gender":"male"
@@ -128,7 +128,7 @@ export default [
       "id": 12,
       "name": "Jubilee",
       "image": imageTweleve,
-      "phone": "0420719911",
+      "phone": "123-456-9911",
       "email": "JUBS@gmail.com",
       "DOB": "03/09/1980",
       "gender":"female"
@@ -138,7 +138,7 @@ export default [
       "id": 13,
       "name": "Rogue",
       "image": imageOne,
-      "phone": "0520719900",
+      "phone": "123-456-9989",
       "email": "Rogue@gmail.com",
       "DOB": "14/07/1979",
       "gender":"female"
@@ -148,7 +148,7 @@ export default [
       "id": 14,
       "name": "Batman",
       "image": imageTwo,
-      "phone": "0520719901",
+      "phone": "123-456-9999",
       "email": "Batman@gmail.com",
       "DOB": "10/08/1959",
       "gender":"male"
@@ -158,7 +158,7 @@ export default [
       "id": 15,
       "name": "Harley Quinn",
       "image": imageThree,
-      "phone": "0520719902",
+      "phone": "123-456-9998",
       "email": "Dr.Quinn@gmail.com",
       "DOB": "1/05/1949",
       "gender":"female"
@@ -168,7 +168,7 @@ export default [
       "id": 16,
       "name": "Joker",
       "image": imageFour,
-      "phone": "0520719903",
+      "phone": "123-456-9997",
       "email": "GotJokes@gmail.com",
       "DOB": "19/04/1959",
       "gender":"male"
@@ -178,7 +178,7 @@ export default [
       "id": 17,
       "name": "Peter Griffin",
       "image": imageFive,
-      "phone": "0520719904",
+      "phone": "123-456-9996",
       "email": "Hehehehehe@gmail.com",
       "DOB": "15/07/1969",
       "gender":"male"
@@ -188,7 +188,7 @@ export default [
       "id": 18,
       "name": "Lois Griffin",
       "image": imageSix,
-      "phone": "0520719905",
+      "phone": "123-456-9983",
       "email": "LGriffin@gmail.com",
       "DOB": "29/08/1979",
       "gender":"female"
@@ -198,7 +198,7 @@ export default [
       "id": 19,
       "name": "Meg",
       "image": imageSeven,
-      "phone": "0520719906",
+      "phone": "123-456-9958",
       "email": "ShutUpMeg@gmail.com",
       "DOB": "12/01/1989",
       "gender":"female"
@@ -208,7 +208,7 @@ export default [
       "id": 20,
       "name": "Stewie Griffin",
       "image": imageEight,
-      "phone": "0520719907",
+      "phone": "123-456-9945",
       "email": "Stew@gmail.com",
       "DOB": "13/07/199",
       "gender":"male"
@@ -218,7 +218,7 @@ export default [
       "id": 21,
       "name": "Brian Griffin",
       "image": imageNine,
-      "phone": "0520719908",
+      "phone": "123-456-9923",
       "email": "GoodBoy@gmail.com",
       "DOB": "19/10/2001",
       "gender":"male"
@@ -227,7 +227,7 @@ export default [
       "id": 22,
       "name": "Quagmire",
       "image": imageTen,
-      "phone": "0520719909",
+      "phone": "123-456-9943",
       "email": "Giggity@gmail.com",
       "DOB": "5/02/1980",
       "gender":"male"
@@ -237,7 +237,7 @@ export default [
       "id": 23,
       "name": "Lana Kane",
       "image": imageEleven,
-      "phone": "0520719910",
+      "phone": "123-456-9955",
       "email": "Lana_Kane@gmail.com",
       "DOB": "4/07/1960",
       "gender":"female"
@@ -247,7 +247,7 @@ export default [
       "id": 24,
       "name": "Sterling Archer",
       "image": imageTweleve,
-      "phone": "0520719911",
+      "phone": "123-456-9977",
       "email": "ThatsHowYouGetAnts@gmail.com",
       "DOB": "03/09/1980",
       "gender":"male"

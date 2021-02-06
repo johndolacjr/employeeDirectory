@@ -9,12 +9,12 @@ export default function SearchBar(props) {
             <form className="filter-form form-group ">
 
                 <div className="row">
-                    <h4 className="col-md-12">Filter By Name: </h4>
+                    <h4 className="col-lg-6">Filter By Name: </h4>
                     <input onChange={props.handleSearch} type="text"></input>
                 </div>
 
                
-               <div className="row">
+               {/* <div className="row">
                     <div className="form-check col-lg-6">
                        
                         <input type="checkbox" className="form-check-input" id="male" onChange={props.handleMaleCheck} />
@@ -27,7 +27,7 @@ export default function SearchBar(props) {
                         <input type="checkbox" className="form-check-input" id="female" onChange={props.handleFemaleCheck} />
                         <p className="form-check-label">Female:</p>
                     </div>
-                    </div>
+                    </div> */}
 
 
 

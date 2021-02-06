@@ -11,8 +11,8 @@ export default class EmployeeData extends Component {
     state = {
         data,
         search: "",
-        isMale: false,
-        isFemale: false,
+        // isMale: false,
+        // isFemale: false,
         isName: true,
         sortName: data
     }
@@ -22,35 +22,35 @@ export default class EmployeeData extends Component {
         this.setState({ search: event.target.value })
     }
 
-    //Filter if Male check box is clicked
-    handleMaleCheck = (event) => {
-        this.setState({ isMale: event.target.checked })
-        if (!this.state.isMale) {
-            let filterByGender = this.state.data.filter(gender => {
-                return gender.gender === "male"
-            })
-            this.setState({ data: filterByGender })
-        } else {
+    // //Filter if Male check box is clicked
+    // handleMaleCheck = (event) => {
+    //     this.setState({ isMale: event.target.checked })
+    //     if (!this.state.isMale) {
+    //         let filterByGender = this.state.data.filter(gender => {
+    //             return gender.gender === "male"
+    //         })
+    //         this.setState({ data: filterByGender })
+    //     } else {
 
-            this.setState({ data })
+    //         this.setState({ data })
 
-        }
-    }
+    //     }
+    // }
 
-    //Filter if Female check box is clicked
-    handleFemaleCheck = (event) => {
-        this.setState({ isFemale: event.target.checked })
+    // //Filter if Female check box is clicked
+    // handleFemaleCheck = (event) => {
+    //     this.setState({ isFemale: event.target.checked })
 
-        if (!this.state.isFemale) {
-            let filterByGender = this.state.data.filter(gender => {
-                return gender.gender === "female"
-            })
-            this.setState({ data: filterByGender })
-        } else {
-            this.setState({ data })
-        }
+    //     if (!this.state.isFemale) {
+    //         let filterByGender = this.state.data.filter(gender => {
+    //             return gender.gender === "female"
+    //         })
+    //         this.setState({ data: filterByGender })
+    //     } else {
+    //         this.setState({ data })
+    //     }
 
-    }
+    // }
 
    
     //Filter if sort by descending name check box is clicked
@@ -101,9 +101,8 @@ export default class EmployeeData extends Component {
                 <SearchBar
                     data={this.state.data}
                     handleSearch={this.handleSearch.bind(this)}
-                    handleMaleCheck={this.handleMaleCheck.bind(this)}
-                    handleFemaleCheck={this.handleFemaleCheck.bind(this)}
-                   
+                    // handleMaleCheck={this.handleMaleCheck.bind(this)}
+                    // handleFemaleCheck={this.handleFemaleCheck.bind(this)}
                     handleSortByDecendingName={this.handleSortByDecendingName.bind(this)}
                 />
                 <TableHeading  
@@ -118,12 +117,8 @@ export default class EmployeeData extends Component {
                         email={data.email}
                         birthday={data.DOB}
                     />
-
                 )
-
-
                 )}
-
             </div>
         )
     }
