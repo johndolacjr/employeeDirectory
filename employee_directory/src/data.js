@@ -23,7 +23,7 @@ import imageTwentytwo from "./Components/Images/twentytwo.jpg"
 import imageTwentythree from "./Components/Images/twentythree.jpg"
 import imageTwentyfour from "./Components/Images/twentyfour.jpg"
 
-
+// eslint-disable-next-line
 export default [
 
     {
@@ -32,7 +32,7 @@ export default [
       "image": imageOne,
       "phone": "123-456-9900",
       "email": "Yoshi@gmail.com",
-      "DOB": "14/07/1979",
+      "DOB": "02/07/1979",
       "gender":"male"
     },
 
@@ -48,41 +48,41 @@ export default [
 
     {
       "id": 3,
-      "name": "Leonardo",
+      "name": "Leonardo Turtle",
       "image": imageThree,
       "phone": "123-456-9945",
       "email": "Leo@gmail.com",
-      "DOB": "1/05/1985",
+      "DOB": "01/05/1985",
       "gender":"male"
     },
 
     {
       "id": 4,
-      "name": "Donatello",
+      "name": "Donatello Turtle",
       "image": imageFour,
       "phone": "123-456-9902",
       "email": "Donny@gmail.com",
-      "DOB": "19/04/185",
+      "DOB": "01/04/1985",
       "gender":"male"
     },
 
     {
       "id": 5,
-      "name": "Michelangelo",
+      "name": "Michelangelo Turtle",
       "image": imageFive,
       "phone": "123-456-9946",
       "email": "Mikey@gmail.com",
-      "DOB": "15/07/1985",
+      "DOB": "11/07/1985",
       "gender":"male"
     },
 
     {
       "id": 6,
-      "name": "Raphael",
+      "name": "Raphael Turtle",
       "image": imageSix,
       "phone": "123-456-9947",
       "email": "Raph@gmail.com",
-      "DOB": "29/08/1979",
+      "DOB": "10/08/1985",
       "gender":"male"
     },
 
@@ -102,7 +102,7 @@ export default [
       "image": imageEight,
       "phone": "123-456-9912",
       "email": "Beebop@gmail.com",
-      "DOB": "13/07/199",
+      "DOB": "05/07/199",
       "gender":"female"
     },
 
@@ -112,7 +112,7 @@ export default [
       "image": imageNine,
       "phone": "123-456-9913",
       "email": "Tommy@gmail.com",
-      "DOB": "19/10/2001",
+      "DOB": "06/10/2001",
       "gender":"female"
     },
 
@@ -122,7 +122,7 @@ export default [
       "image": imageTen,
       "phone": "123-456-9956",
       "email": "Foxxy@gmail.com",
-      "DOB": "25/02/1995",
+      "DOB": "05/02/1995",
       "gender":"male"
     },
 
@@ -132,7 +132,7 @@ export default [
       "image": imageEleven,
       "phone": "123-456-9976",
       "email": "HesOurHero@gmail.com",
-      "DOB": "14/07/1960",
+      "DOB": "08/07/1960",
       "gender":"male"
     },
 
@@ -152,7 +152,7 @@ export default [
       "image": imageThirteen,
       "phone": "123-456-9989",
       "email": "Rogue@gmail.com",
-      "DOB": "14/07/1979",
+      "DOB": "04/07/1979",
       "gender":"female"
     },
 
@@ -172,7 +172,7 @@ export default [
       "image": imageFifteen,
       "phone": "123-456-9998",
       "email": "Dr.Quinn@gmail.com",
-      "DOB": "1/05/1949",
+      "DOB": "10/05/1949",
       "gender":"female"
     },
 
@@ -182,7 +182,7 @@ export default [
       "image": imageSixteen,
       "phone": "123-456-9997",
       "email": "GotJokes@gmail.com",
-      "DOB": "19/04/1959",
+      "DOB": "11/04/1959",
       "gender":"male"
     },
 
@@ -192,7 +192,7 @@ export default [
       "image": imageSeventeen,
       "phone": "123-456-9996",
       "email": "Hehehehehe@gmail.com",
-      "DOB": "15/07/1969",
+      "DOB": "12/07/1969",
       "gender":"male"
     },
 
@@ -202,13 +202,13 @@ export default [
       "image": imageEighteen,
       "phone": "123-456-9983",
       "email": "LGriffin@gmail.com",
-      "DOB": "29/08/1979",
+      "DOB": "03/08/1979",
       "gender":"female"
     },
 
     {
       "id": 19,
-      "name": "Meg",
+      "name": "Meg Griffin",
       "image": imageNineteen,
       "phone": "123-456-9958",
       "email": "ShutUpMeg@gmail.com",
@@ -222,7 +222,7 @@ export default [
       "image": imageTwenty,
       "phone": "123-456-9945",
       "email": "Stew@gmail.com",
-      "DOB": "13/07/199",
+      "DOB": "12/07/199",
       "gender":"male"
     },
 
@@ -232,16 +232,16 @@ export default [
       "image": imageTwentyone,
       "phone": "123-456-9923",
       "email": "GoodBoy@gmail.com",
-      "DOB": "19/10/2001",
+      "DOB": "09/10/2001",
       "gender":"male"
     },
     {
       "id": 22,
-      "name": "Quagmire",
+      "name": "Quagmire Smith",
       "image": imageTwentytwo,
       "phone": "123-456-9943",
       "email": "Giggity@gmail.com",
-      "DOB": "5/02/1980",
+      "DOB": "05/02/1980",
       "gender":"male"
     },
 
@@ -251,7 +251,7 @@ export default [
       "image": imageTwentythree,
       "phone": "123-456-9955",
       "email": "Lana_Kane@gmail.com",
-      "DOB": "4/07/1960",
+      "DOB": "04/07/1960",
       "gender":"female"
     },
 
